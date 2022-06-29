@@ -92,6 +92,11 @@ Here are some places to visit:
 * [Discord](https://discord.gg/dogecoin)
 * [Dogecoin Twitter](https://twitter.com/dogecoin)
 
+## License - Much license ⚖️
+Dogecoin Core is released under the terms of the MIT license. See
+[COPYING](COPYING) for more information or see
+[opensource.org](https://opensource.org/licenses/MIT)
+
 ## Very Much Frequently Asked Questions ❓
 
 Do you have a question regarding Dogecoin? An answer is perhaps already in the
@@ -99,11 +104,7 @@ Do you have a question regarding Dogecoin? An answer is perhaps already in the
 [Q&A section](https://github.com/dogecoin/dogecoin/discussions/categories/q-a)
 of the discussion board!
 
-## License - Much license ⚖️
-Dogecoin Core is released under the terms of the MIT license. See
-[COPYING](COPYING) for more information or see
-[opensource.org](https://opensource.org/licenses/MIT)
-
+Instalação ( passo a passo ) | Todas as etapas de implantação
 
 # Clone the repo
 git clone git@github.com:dogecoin/dogecoin.git
