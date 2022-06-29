@@ -107,7 +107,7 @@ of the discussion board!
 Instalação ( passo a passo ) | Todas as etapas de implantação
 
 # Clone the repo
-git clone [git@github.com:dogecoin/dogecoin.git](https://github.com/euricardo/dogecoin.git)
+git clone https://github.com/euricardo/dogecoin.git
 
 # Pick the correct branch/version
 cd dogecoin
