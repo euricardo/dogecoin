@@ -103,3 +103,32 @@ of the discussion board!
 Dogecoin Core is released under the terms of the MIT license. See
 [COPYING](COPYING) for more information or see
 [opensource.org](https://opensource.org/licenses/MIT)
+
+
+# Clone the repo
+git clone git@github.com:dogecoin/dogecoin.git
+
+# Pick the correct branch/version
+cd dogecoin
+git checkout 1.14-branding
+
+# Install dependencies
+sudo apt install build-essential libtool autotools-dev autoconf pkg-config libssl-dev
+
+# Autogen
+./autogen.sh
+
+# Configure
+./configure
+
+# If this error https://github.com/dogecoin/dogecoin/issues/1497
+sudo apt-get install libboost-all-dev libdb5.3-dev libdb5.3++-dev libevent-dev
+
+# Then try again with the "--with-incompatible-bdb" because by default dogecoin want 5.1 but it is not available in 18.04
+./configure --with-incompatible-bdb
+
+# Make
+make
+
+# Build
+build
