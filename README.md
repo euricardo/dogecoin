@@ -106,7 +106,7 @@ of the discussion board!
 
 Instalação ( passo a passo ) | Todas as etapas de implantação
 
-apt-get update
+# apt-get update
 apt-get install libboost-all-dev libzmq3-dev libminiupnpc-dev
 apt-get install curl git build-essential libtool autotools-dev
 apt-get install automake pkg-config bsdmainutils python3
